@@ -1,6 +1,4 @@
-// Here's the code I used to make it: https://github.com/davidfitzgibbon/basement-vercel
 
-const Ud = function () {
 	const e = document.createElement("link").relList;
 	if (e && e.supports && e.supports("modulepreload")) return;
 	for (const i of document.querySelectorAll('link[rel="modulepreload"]')) n(i);
